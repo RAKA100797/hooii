@@ -1,0 +1,224 @@
+<html>
+ <head>
+  <title>
+   WhatsApp Clone
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111b21;
+            color: #d1d7db;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            background-color: #111b21;
+            border-bottom: 1px solid #2a2f32;
+        }
+        .header .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .icons {
+            display: flex;
+            gap: 15px;
+        }
+        .header .icons i {
+            font-size: 20px;
+        }
+        .content {
+            padding: 10px 15px;
+        }
+        .content .archived {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #2a2f32;
+        }
+        .content .archived i {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .chat {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #2a2f32;
+        }
+        .chat img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .chat .details {
+            flex-grow: 1;
+        }
+        .chat .details .name {
+            font-weight: bold;
+        }
+        .chat .details .message {
+            color: #8696a0;
+        }
+        .chat .time {
+            color: #8696a0;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            background-color: #111b21;
+            border-top: 1px solid #2a2f32;
+        }
+        .footer .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #8696a0;
+        }
+        .footer .nav-item.active {
+            color: #00a884;
+        }
+        .footer .nav-item i {
+            font-size: 20px;
+        }
+        .footer .nav-item span {
+            font-size: 12px;
+        }
+        .footer .new-chat {
+            background-color: #00a884;
+            color: #fff;
+            font-size: 24px;
+            padding: 10px;
+            border-radius: 50%;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <div class="title">
+    WhatsApp
+   </div>
+   <div class="icons">
+    <i class="fas fa-camera">
+    </i>
+    <i class="fas fa-search">
+    </i>
+    <i class="fas fa-ellipsis-v">
+    </i>
+   </div>
+  </div>
+  <div class="content">
+   <div class="archived">
+    <i class="fas fa-archive">
+    </i>
+    <span>
+     Diarsipkan
+    </span>
+   </div>
+   <div class="chat">
+    <img alt="Profile picture of Wa Story" height="40" src="https://storage.googleapis.com/a1aa/image/kDzbea1rfHmQhU4ml0zGhrq6fd4hfJg0TqkY7NJKJYkfZUVdC.jpg" width="40"/>
+    <div class="details">
+     <div class="name">
+      Wa Story
+     </div>
+     <div class="message">
+      ~ ~ BODREX 🧟‍♂️: 😁
+     </div>
+    </div>
+    <div class="time">
+     20.06
+    </div>
+   </div>
+   <div class="chat">
+    <img alt="Profile picture of osis spensabulan periode 2024/2025" height="40" src="https://storage.googleapis.com/a1aa/image/xWWLplcmLbKdJdpZFSP0yMfXrEdfqi7iZredzYPUAxe3MqqOB.jpg" width="40"/>
+    <div class="details">
+     <div class="name">
+      osis spensabulan periode 2024/2025
+     </div>
+     <div class="message">
+      vera: 🌙 Dibuka
+     </div>
+    </div>
+    <div class="time">
+     20.06
+    </div>
+   </div>
+   <div class="chat">
+    <img alt="Profile picture of cukup tw" height="40" src="https://storage.googleapis.com/a1aa/image/7IYjSTfFSBzJKyNrlCeSi2Cod705u5kBfYUxcmlwitucGVVnA.jpg" width="40"/>
+    <div class="details">
+     <div class="name">
+      cukup tw
+     </div>
+     <div class="message">
+      Anda: oooo
+     </div>
+    </div>
+    <div class="time">
+     19.09
+    </div>
+   </div>
+   <div class="chat">
+    <img alt="Profile picture of SISWA VIII C SMPN 1 BUBULAN" height="40" src="https://storage.googleapis.com/a1aa/image/y8wLV6JQfryXQaubeXMqGxh4SzqjFNl4JF7VuOrlk2gLjqqTA.jpg" width="40"/>
+    <div class="details">
+     <div class="name">
+      SISWA VIII C SMPN 1 BUBULAN
+     </div>
+     <div class="message">
+      Anda bereaksi 👍 pada "Assalamu'alaiku...
+     </div>
+    </div>
+    <div class="time">
+     22/10/24
+    </div>
+   </div>
+   <div class="encryption">
+    <i class="fas fa-lock">
+    </i>
+    Pesan pribadi Anda
+    <span style="color: #00a884;">
+     terenkripsi secara end-to-end
+    </span>
+   </div>
+  </div>
+  <div class="footer">
+   <div class="nav-item active">
+    <i class="fas fa-comment">
+    </i>
+    <span>
+     Chat
+    </span>
+   </div>
+   <div class="nav-item">
+    <i class="fas fa-bell">
+    </i>
+    <span>
+     Pembaruan
+    </span>
+   </div>
+   <div class="nav-item">
+    <i class="fas fa-users">
+    </i>
+    <span>
+     Komunitas
+    </span>
+   </div>
+   <div class="nav-item">
+    <i class="fas fa-phone">
+    </i>
+    <span>
+     Panggilan
+    </span>
+   </div>
+   <div class="new-chat">
+    <i class="fas fa-plus">
+    </i>
+   </div>
+  </div>
+ </body>
+</html>
